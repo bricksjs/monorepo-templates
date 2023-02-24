@@ -1,0 +1,28 @@
+{
+  "name": "agro-expo",
+  "version": "1.0.0",
+  "description": "农博前端基础设施",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "turbo test",
+    "start:all": "turbo dev --filter=./applications/*",
+    "start:main": "turbo dev --filter=@agro-expo/main",
+    "start:demo": "turbo dev --filter=@agro-expo/demo",
+    "start:subject": "turbo dev --filter=@agro-expo/subject",
+    "build:all": "turbo build --filter=./applications/*",
+    "build:com": "turbo build --filter=@agro-expo/components"
+  },
+  "author": "贾亦品",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "@agro-expo/rules": "workspace:*"
+  }
+}

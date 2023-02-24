@@ -1,0 +1,114 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "npm",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true,
+      "source.fixAll.json": true
+  },
+  "npm-intellisense.packageSubfoldersIntellisense": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "npm-intellisense.showBuildInLibs": true,
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "html",
+      "vue"
+  ],
+  "eslint.format.enable": true,
+  "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "DOC",
+      "[ ]",
+      "[x]"
+  ],
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "vetur.ignoreProjectWarning": true,
+  "eslint.debug": true,
+  "eslint.lintTask.enable": true,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "fileheader.customMade": {
+      "description": "",
+      "author": "清晨",
+      "Date": "Do not edit"
+  },
+  "fileheader.configObj": {
+      "specialOptions":{
+        "Date": "createdAt",
+        "LastEditTime": "modifiedAt",
+        "LastEditors": "modifiedBy",
+        "Description": "",
+      }
+  },
+  "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": true,
+      "markdown": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "maven.executable.preferMavenWrapper": true,
+  "eslint.probe": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "vue",
+      "markdown",
+      "less",
+      "scss",
+      "css",
+      "html"
+  ],
+  "eslint.workingDirectories": [
+      "./",
+      "packages",
+  ],
+  "stylelint.workingDirectories":[
+      "./",
+      "packages",
+  ],
+  "git.confirmSync": false,
+  "vscode-office.openOutline": true,
+  "files.associations": {
+      "*.cjson": "jsonc",
+      "*.wxss": "css",
+      "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+      "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "stylelint.snippet": [
+      "css",
+      "less",
+      "postcss",
+      "scss",
+      "vue"
+  ],
+  "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss",
+      "vue",
+      "wxss"
+  ],
+  "stylelint.reportInvalidScopeDisables": true,
+  "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[less]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.root": "/dist"
+}

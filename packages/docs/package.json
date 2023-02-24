@@ -1,0 +1,34 @@
+{
+  "name": "@agro-expo/docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/ui.umd.js",
+  "module": "src/index.js",
+  "scripts": {
+    "init:book": "storybook init",
+    "start:book": "start-storybook -p 6006",
+    "build:book": "build-storybook --output-dir dist"
+  },
+  "dependencies": {
+    "storybook": "^6.5.14",
+    "vue": "^3.2.41"
+  },
+  "engines": {
+    "node": "^14.0.0",
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-webpack4": "^6.5.14",
+    "@storybook/manager-webpack4": "^6.5.14",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/vue3": "^6.5.14",
+    "babel-loader": "^8.3.0",
+    "vue-loader": "^16.8.3"
+  }
+}

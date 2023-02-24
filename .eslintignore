@@ -1,0 +1,14 @@
+
+# 忽略的文件
+lib
+build
+dist
+doc
+target
+public
+
+# 不忽略的文件
+!.eslintrc.js
+!.stylelintrc.js
+!.commitlintrc.js
+!.huskyrc.js

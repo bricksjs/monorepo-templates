@@ -1,0 +1,20 @@
+{
+  "name": "@agro-expo/components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/ui.umd.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "less": "^4.1.3",
+    "vite": "^3.2.3"
+  }
+}

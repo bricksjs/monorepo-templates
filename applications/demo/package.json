@@ -1,0 +1,24 @@
+{
+  "name": "@agro-expo/demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@agro-expo/components": "workspace:*",
+    "@agro-expo/network": "workspace:*",
+    "@agro-expo/rules": "workspace:*",
+    "@agro-expo/toolkit": "workspace:^1.0.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^0.1.2",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.0"
+  }
+}
